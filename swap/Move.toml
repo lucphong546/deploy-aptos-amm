@@ -1,0 +1,18 @@
+[package]
+name = "swap"
+version = "0.0.0"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+subdir = "aptos-move/framework/aptos-framework"
+rev = "23d258d1f2440267f866eeb27f9830be48682af8"
+
+[dependencies.init]
+local = "../init"
+
+[dependencies.lp]
+local = "../lp"
+
+[addresses]
+swap = "ca8472ea47eaa26cb11471e2973dfe4689bab10eddf285f8b7256c672f405e8d"
+lp = "d36b6beb490c99775e3b33f5ec0d8f3aad03657edd9fc84964ad4cb96f8c33f4"
