@@ -1,0 +1,12 @@
+[package]
+name = "lp"
+version = "0.0.0"
+
+[dependencies.MoveStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "23d258d1f2440267f866eeb27f9830be48682af8"
+subdir = "aptos-move/framework/move-stdlib"
+
+[addresses]
+# run `aptos move test --package-dir init` to get this
+lp = "d36b6beb490c99775e3b33f5ec0d8f3aad03657edd9fc84964ad4cb96f8c33f4"
